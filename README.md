@@ -4,8 +4,8 @@
 
 ### Mobile Screenshots
 
-![mobile](https://github.com/belifkutlu/finite-nft/blob/master/screenshots/mobile.png?raw=true)
+![mobile](https://github.com/belifkutlu/finite-nft-landing-page/blob/master/screenshots/mobile.png?raw=true)
 
 ### Desktop Screenshots
 
-![desktop 1](https://github.com/belifkutlu/finite-nft/blob/master/screenshots/desktop.png?raw=true)
+![desktop 1](https://github.com/belifkutlu/finite-nft-landing-page/blob/master/screenshots/desktop.png?raw=true)
