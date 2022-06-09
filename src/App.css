@@ -140,3 +140,56 @@ body {
 .play-icon {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .header-right a,
+  .header-left input {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+    padding-right: 0;
+    padding: 20px;
+  }
+
+  .btn {
+    padding: 0px 10px;
+    height: 40px;
+    font-size: 14px;
+    min-width: auto;
+  }
+
+  .section-1 {
+    flex-direction: column;
+  }
+
+  .content-texts-wrapper {
+    width: 100%;
+    order: 2;
+  }
+
+  .content-texts-wrapper h1 {
+    font-size: 48px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .content-texts-wrapper p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .content-texts-wrapper br {
+    display: none;
+  }
+  .content-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    padding: 30px;
+    width: 100%;
+  }
+}
