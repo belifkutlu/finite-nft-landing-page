@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/finite-nft-landing-page/static/css/main.aa342376.css",
+    "main.js": "/finite-nft-landing-page/static/js/main.5b8d9531.js",
+    "static/media/hero-image.png": "/finite-nft-landing-page/static/media/hero-image.e3b71bd5fee4efb0c1ee.png",
+    "static/media/finite-logo.svg": "/finite-nft-landing-page/static/media/finite-logo.7864ad556e26bb365e71ca62f339a0fe.svg",
+    "index.html": "/finite-nft-landing-page/index.html",
+    "main.aa342376.css.map": "/finite-nft-landing-page/static/css/main.aa342376.css.map",
+    "main.5b8d9531.js.map": "/finite-nft-landing-page/static/js/main.5b8d9531.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa342376.css",
+    "static/js/main.5b8d9531.js"
+  ]
+}
