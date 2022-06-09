@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -13,8 +14,10 @@ body {
 }
 .header {
   align-items: center;
-  padding: 50px 0;
+  padding-top: 30px;
   display: flex;
+  padding-right: 20px;
+  padding-bottom: 75px;
 }
 
 .header-left {
@@ -61,11 +64,21 @@ body {
   border-color: black;
 }
 
-.header-right button {
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 15px;
   height: 60px;
   padding: 0 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 175px;
+}
+
+.btn-purple {
   background: radial-gradient(
     232.93% 273.25% at -30.54% -121.49%,
     #0a0822 0%,
@@ -75,6 +88,55 @@ body {
     #dba8db 100%
   );
   color: white;
-  font-size: 18px;
+}
+.btn-transparent {
+  background-color: transparent;
+  color: #393939;
+  border: none;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.content-texts-wrapper {
+  width: 60%;
+}
+
+.content-texts-wrapper h1 {
+  font-size: 90px;
   font-weight: 700;
+  letter-spacing: -1px;
+  color: #0f1d40;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.content-texts-wrapper p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #49536e;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  width: 40%;
+  padding-left: 60px;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.content-buttons {
+  display: flex;
+}
+
+.content-buttons button:first-child {
+  margin-right: 30px;
+}
+
+.play-icon {
+  margin-right: 5px;
 }

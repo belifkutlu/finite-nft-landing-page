@@ -18,19 +18,45 @@ function App() {
           <a href="/">Explore</a>
           <a href="/">Create</a>
           <a href="/">Blog</a>
-          <button>Connect Wallet</button>
+          <button className="btn btn-purple">Connect Wallet</button>
         </navbar>
       </header>
       <div className="section-1">
         <div className="content-texts-wrapper">
-          <h1>Explore, Collect Sell Incredible NFTs</h1>
+          <h1>
+            Explore, Collect <br /> & Sell Incredible NFTs
+          </h1>
           <p>
-            The largest NFT marketplace. Authentic and incredible unique digital
-            creations.
+            The largest NFT marketplace. Authentic and incredible unique <br />{" "}
+            digital creations.
           </p>
-          <div className="buttons">
-            <button>Get Started</button>
-            <button>Play Video</button>
+          <div className="content-buttons">
+            <button className="btn btn-purple">Get Started</button>
+            <button className="btn btn-transparent">
+              <svg
+                className="play-icon"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.2433 30.6792C24.3413 30.6792 30.0953 24.9087 30.0953 17.7905C30.0953 10.6722 24.3413 4.90172 17.2433 4.90172C10.1454 4.90172 4.3914 10.6722 4.3914 17.7905C4.3914 24.9087 10.1454 30.6792 17.2433 30.6792Z"
+                  stroke="#393939"
+                  stroke-width="2.455"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M21.5273 17.7905L15.1013 13.4942V22.0867L21.5273 17.7905Z"
+                  stroke="#393939"
+                  stroke-width="2.455"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Play Video
+            </button>
           </div>
         </div>
         <div className="hero-image">
